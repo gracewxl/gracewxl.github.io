@@ -67,11 +67,7 @@
 }
 </style>
 
-  <title>
-  
-    归档 · 十号风球
-  
-</title>
+  <title> Hexo简要命令 · 十号风球 </title>
 </head>
 <body>
   <div class="container">
@@ -212,27 +208,28 @@
         <div class="main-wrapper">
           
     
-  <div class="archive syuanpi fadeInRightShort" id="archive">
-    
-      <aside class="archive-title">Total</aside>
-      <span class="archive-num">一共有 2 篇文章</span>
-    
-      
-      
+  
+  <article class="
+  post
+   is_post 
+  ">
+    <header class="post-header">
+      <div class="post-time syuanpi fadeInRightShort back-1">
+        <div class="post-time-wrapper">
+          
+          <time>2019-10-19</time>
+          
+        </div>
+      </div>
+      <h2 class="post-title syuanpi fadeInRightShort back-2">
         
-          
-          
-            
-            
-            <div class="archive-group">
-            <time class="archive-year"> 2019 </time>
-            <div class="archive-list">
-          
-          
-        <div class="archive-post">
-          <div class="archive-post-content">
-            
-              <p><strong>创建博客文章</strong></p>
+          Hexo简要命令
+        
+      </h2>
+    </header>
+    <div class="post-content syuanpi fadeInRightShort back-3">
+      
+        <p><strong>创建博客文章</strong></p>
 <p>找到博客的本地文件夹，比如<code>文档/Hexo</code> ,在文件夹里按住 Shift 点右键，“在此处打开Powershell 窗口”</p>
 <p><code>hexo n *postname*</code> : 创建新的博客文章。文件创建在 <em>/source/_posts/postname.md*， *postname</em> 更换为自己起的名字，不一定是文章标题。这个教程里都用<em>postname</em> 代指。</p>
 <p>右键点击 <em>postname.md</em>，选择 <em>open with Sublime Text</em>，用 Sublime 编辑文稿。</p>
@@ -251,53 +248,78 @@
 
 <p>如果浏览器看到的没有变化，按<code>Ctrl+R</code> 可以强制刷新。 Edge或者Firefox比Chrome更新得更快。</p>
 
-            
-          </div>
-          <div class="archive-post-info">
-            <time class="archive-post-time">
-              2019-10-19
-            </time>
-            <a  class="archive-post-link" href="/2019/10/19/hexo/">
-              Hexo简要命令
-            </a>
-          </div>
-        </div>
       
-        
-          
-          
-          
-        <div class="archive-post">
-          <div class="archive-post-content">
-            
-              <h1 id="试试插图"><a href="#试试插图" class="headerlink" title="试试插图"></a>试试插图</h1><p>低分辨率图片(<em>儿子？</em>)：</p>
-<p><img src="/2019/10/19/pic/dimash.jpg" alt="这只是一张证明可以用来插图的图片"></p>
-<p>高分辨率图片：</p>
-<p><img src="/2019/10/19/pic/bern.jpg" alt="似乎高清大图的质量也不错？"></p>
-<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><p><strong>Markdown</strong> 是写作的程序语法，需要简单学习一下。不过真的很简单。</p>
+    
+    </div>
+    
+    
+      
 
-            
-          </div>
-          <div class="archive-post-info">
-            <time class="archive-post-time">
-              2019-10-19
-            </time>
-            <a  class="archive-post-link" href="/2019/10/19/pic/">
-              博客上线了
-            </a>
-          </div>
-        </div>
       
+  <hr class="copy-line">
+  <div class="post-copyright">
+    <div class="copy-author">
+      <span>作者 :</span>
+      <span>大量</span>
+    </div>
+    <div class="copy-url">
+      <span>地址 :</span>
+      <a href="http://gracewxl.github.io/2019/10/19/hexo/">http://gracewxl.github.io/2019/10/19/hexo/</a>
+    </div>
+    <div class="copy-origin">
+      <span>来源 :</span>
+      <a href="http://gracewxl.github.io">http://gracewxl.github.io</a>
+    </div>
+    <div class="copy-license">
       
-        </section></section>
-      
+      著作权归作者所有，转载请联系作者获得授权。
+    </div>
   </div>
+
+    
+  </article>
   
-  <nav class="pagination">
-      <span class="page-number current">1</span>
+    
+  <nav class="article-page">
+    
+    
+      <a href="/2019/10/19/pic/" id="art-right" class="art-right">
+        <span class="prev-title">
+          博客上线了<i class="iconfont icon-right"></i>
+        </span>
+      </a>
+    
   </nav>
 
 
+    
+  <i id="com-switch" class="iconfont icon-down jumping-in long infinite" style="font-size:24px;display:block;text-align:center;transform:rotate(180deg);"></i>
+  <div class="post-comments" id="post-comments" style="display: block;margin: auto 16px;">
+    
+
+    
+    
+
+    
+
+  </div>
+
+
+
+  
+  
+    
+  
+  <aside class="post-toc">
+    <div class="title"><span>文章导航</span></div>
+    <div class="toc-inner">
+      
+    </div>
+  </aside>
+
+
+
+  
 
 
         </div>
@@ -383,6 +405,20 @@
 
 <script src="/script/bootstarp.js"></script>
 
+
+<script>
+if (nlviconfig.theme.toc) {
+  setTimeout(function() {
+    if (nlviconfig.theme.scheme === 'balance') {
+      $("#header").addClass("show_toc");
+    } else if (nlviconfig.theme.scheme === 'banderole') {
+      $(".container-inner").addClass("has_toc");
+      $(".post-toc .title").addClass("show");
+      $(".toc-inner").addClass("show");
+    }
+  }, 1000);
+}
+</script>
 
 
 
